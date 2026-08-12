@@ -12,11 +12,11 @@ public class q5 {
         System.out.println("Enter the second binary number");
         b2=input.nextLong();
 
-        int sum[]=new int[50];
+        int product[]=new int[50];
         
         while(b1!=0|| b2!=0){
             
-            sum[i++]=(int)((b1%10+b2%10+remainder)%2);
+            product[i++]=(int)((b1%10+b2%10+remainder)%2);
             remainder=(int)((b1%10+b2%10+remainder)/2);
             b1=b1/10;
             b2=b2/10;
@@ -27,14 +27,15 @@ public class q5 {
 
         }
         if(remainder!=0){
-            sum[i++]=remainder;
+            product[i++]=remainder;
         }
 
         --i;
-        System.out.println("Sum of two binary numbers is");
+        System.out.println("Product of two binary numbers is");
         while(i>=0){
-            System.out.print(sum[i--]);
+            System.out.print(product[i--]);
         }
+        input.close();
         
 
         
