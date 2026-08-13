@@ -1,4 +1,4 @@
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Exercise19 {
     public static void main(String args[]) {
@@ -28,5 +28,6 @@ public class Exercise19 {
             System.out.print(bin_num[j]);
         }
         System.out.print("\n");
+        scan.close();
     }
 }
