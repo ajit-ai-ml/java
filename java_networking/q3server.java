@@ -26,7 +26,7 @@ public class q3server {
             
 
 
-                server.close();
+        server.close();
         socket.close();
         
     }
