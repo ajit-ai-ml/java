@@ -1,12 +1,12 @@
 
-package java_networking;
+// package java_networking;
 import java.net.*;
 import java.io.*;
 
 public class q6url {
     public static void main(String[] args) throws Exception {
 
-        URL url = new URL("https://www.google.com");
+        URL url = new URL("https://www.gec.edu.in");
 
         URLConnection con = url.openConnection();
 
