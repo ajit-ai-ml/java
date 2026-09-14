@@ -1,2 +1,9 @@
 *.class
 .vscode/
+target/
+build/
+bin/
+ 
+.settings/
+.project
+.classpath
