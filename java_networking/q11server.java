@@ -18,8 +18,7 @@ public class q11server {
     String messageFromClient = in.readLine();
     System.out.println("Received from client: " + messageFromClient);   
 
-    
 
-    }
-    
+
+    } 
 }
