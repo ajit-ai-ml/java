@@ -16,7 +16,7 @@ public class q1 {
             arr[i]=input.nextInt();
             
         }
-        //elements in array are..
+        //elements in array are.....
         for(int i=0;i<5;i++){
             System.out.println(arr[i]);
         }
@@ -38,6 +38,7 @@ public class q1 {
         if(!found){
             System.out.println("Element not found");
         }
+        input.close();
 
     }
     
