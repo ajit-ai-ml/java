@@ -36,7 +36,7 @@ public class q1 {
             }
         }
         if(!found){
-            System.out.println("Element not found");
+            System.out.println(" sorryv Element not found");
         }
         input.close();
 
