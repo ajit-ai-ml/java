@@ -11,7 +11,7 @@ void insertion(int arr[],int n){
            arr[prev+1]=key;
     }
  
-}
+} 
 void display(int arr[],int n){
     for(int i=0;i<n;i++){
         printf("index %d : %d\n",i,arr[i]);
