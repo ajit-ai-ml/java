@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include"mymodule.h"
 //bubble sort
 void bubble_sort(int arr[],int n){
 
@@ -72,7 +73,7 @@ void merge(int arr[],int st,int mid, int last){
         temp[k++]=arr[j++];
     }
 
-    for(int m=0;m<k;m++){
+    for(int m=0;m<-k;m++){
          arr[st+m]=temp[m];
     }
 }
@@ -102,17 +103,17 @@ void display(int arr[],int n){
 
 
 
-int main(){
-    int arr[]={4,1,9,5,43,84,5676,467,45};
-    int n=sizeof(arr)/sizeof(arr[1]);
-    // bubble_sort(arr,n);
-    // selection_sort(arr,n);
-    // insertion_sort(arr,n);
-    merge_sort(arr,0,n-1);
-    display(arr,n);
+// int main(){
+//     int arr[]={4,1,9,5,43,84,5676,467,45};
+//     int n=sizeof(arr)/sizeof(arr[1]);
+//     // bubble_sort(arr,n);
+//     // selection_sort(arr,n);
+//     // insertion_sort(arr,n);
+//     merge_sort(arr,0,n-1);
+//     display(arr,n);
 
 
-return 0;
+// return 0;
 
 
-}
+// }
