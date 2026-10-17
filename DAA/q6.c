@@ -11,7 +11,7 @@ void display(int arr[],int n){
 }
 int main(){
        int a=0;
- int arr[5]={2,3,5,6,4,};
+ int arr[5]={2,3,5,6,4};
   for(int i=0;i<5;i++){
 
 
