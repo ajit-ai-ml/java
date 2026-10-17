@@ -30,8 +30,8 @@ void merge(int arr[], int st, int mid, int last) {
 void merge_sort(int arr[], int st, int last) {
     // Base case: zero or one element
     if (st >= last) {
-        return;
-    }
+    return;}
+    
 
     int mid = st + (last - st) / 2;
 
@@ -47,7 +47,7 @@ void display(int arr[], int n) {
 }
 
 int main(void) {
-    int arr[] = {3, 4, 2, 5, 2, 7, 9};
+    int arr[] = {5,6,4,3,2,1};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     merge_sort(arr, 0, n - 1);
