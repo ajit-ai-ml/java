@@ -73,7 +73,7 @@ void merge(int arr[],int st,int mid, int last){
         temp[k++]=arr[j++];
     }
 
-    for(int m=0;m<-k;m++){
+    for(int m=0;m<k;m++){
          arr[st+m]=temp[m];
     }
 }
