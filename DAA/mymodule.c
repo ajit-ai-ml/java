@@ -99,6 +99,7 @@ void display(int arr[],int n){
 }
 
 
+//quick sort
 
 
 
